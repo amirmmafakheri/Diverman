@@ -1,6 +1,6 @@
 # Word and Filename Extractor
 
-This script is a command-line tool designed to extract words, hyphenated words, and common filename patterns from either a text file or the HTML content of a URL (or list of URLs). It's useful for **reconnaissance**, **web content analysis**, and **data extraction tasks** in cybersecurity, automation, or text processing.
+This script is a command-line tool designed to extract words, hyphenated words, and common filename patterns from either a text file or the HTML content of a URL (or list of URLs). It's useful for **reconnaissance**, **web content analysis**, and **data extraction tasks** in fuzzing, automation, or text processing.
 
 ---
 
