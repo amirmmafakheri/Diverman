@@ -21,7 +21,7 @@ This script is a command-line tool designed to extract words, hyphenated words, 
 ## Usage
 
 ```bash
-python script.py [OPTIONS]
+python diverman.py [OPTIONS]
 ```
 
 ### Options
@@ -39,25 +39,25 @@ python script.py [OPTIONS]
 ### Extract from a file:
 
 ```bash
-python script.py -f input.txt
+python diverman.py -f input.txt
 ```
 
 ### Extract from a single URL:
 
 ```bash
-python script.py -u https://example.com
+python diverman.py -u https://example.com
 ```
 
 ### Extract from multiple URLs with 5 threads:
 
 ```bash
-python script.py -l urls.txt -t 5
+python diverman.py -l urls.txt -t 5
 ```
 
 ### Use custom headers:
 
 ```bash
-python script.py -u https://example.com -H "User-Agent:custom-agent,Accept:text/html"
+python diverman.py -u https://example.com -H "User-Agent:custom-agent,Accept:text/html"
 ```
 
 ---
